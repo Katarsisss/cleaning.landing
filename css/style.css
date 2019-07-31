@@ -3978,7 +3978,8 @@ header {
 
 .sing_port_list ul li:after {
   position: absolute;
-  content: '\e907';
+  content: 'f14a';
+  content: "\f0ac";
   font-family: "custom-icons";
   left: 0;
   top: 0;

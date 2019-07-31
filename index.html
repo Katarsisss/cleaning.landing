@@ -43,7 +43,9 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
-
+    <link href="icon/custom-icons/css/custom-icons.css" rel="stylesheet">
+    <link href="icon/elegant-icons/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!--[if IE]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -111,7 +113,7 @@
                                     <li><a href="index-two.html">Home Two</a></li>
                                 </ul> -->
                             </li>
-                            <li class="has-sub"><a href="index.html">Сервис</a>
+                            <li class="has-sub"><a href="single-services.html">Сервис</a>
                                 <!-- <ul>
                                     <li><a href="gallery.html">Gallery Page</a>
                                     </li>
@@ -127,7 +129,7 @@
                                     </li>
                                 </ul> -->
                             </li>
-                            <li class="has-sub"><a href="blog.html">Проекты</a>
+                            <li class="has-sub"><a href="single-gallery.html">Проекты</a>
                                 <!-- <ul>
                                     <li><a href="blog.html">Blog One</a>
                                     </li>
@@ -150,7 +152,7 @@
                     <form method="post" action="contact.html">
                         <div class="form-group">
                             <input type="search" name="search-field" value="" placeholder="Поиск....." required="">
-                            <button type="submit"><span class="icon-glyph-16"></span></button>
+                            <button type="submit"><i class="fa fa-search"></i></button>
                         </div>
                     </form>
                 </div>
@@ -282,7 +284,7 @@
 
     <!-- Start: Service  Section
 ==================================================-->
-    <section class="service_sec_tw">
+    <section class="service-section">
         <div class="container">
             <!-- Start: Heading -->
             <div class="base-header base_header_tw">
@@ -290,46 +292,79 @@
                 <h3>Наш Сервис </h3>
             </div>
             <!-- End: Heading -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme" id="service_carousel">
-                        <div class="item">
-                            <div class="serv_box_tw">
-                                <div class="serv_box_img">
-                                    <img class="img-responsive" src="images/service_1.jpg" alt="">
-                                </div>
-                                <div class="serv_box_cont">
-                                    <p>Коммерческий сервис</p>
-                                    <a href="services.html"><h3>Коммерческая уборка <br>помещений</h3></a>
-                                    <span class="serv-learn">Читать</span><i class="arrow_right"></i>
-                                </div>
-                            </div>
+            <div class="row timeline_posts">
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon1.png" alt="image">
                         </div>
-                        <div class="item">
-                            <div class="serv_box_tw">
-                                <div class="serv_box_img">
-                                    <img class="img-responsive" src="images/service_2.jpg" alt="">
-                                </div>
-                                <div class="serv_box_cont">
-                                    <p>Убока жилых помещений</p>
-                                    <a href="services.html"><h3>Сервис уборки <br>дома</h3></a>
-                                    <span class="serv-learn">Читать</span><i class="arrow_right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="serv_box_tw">
-                                <div class="serv_box_img">
-                                    <img class="img-responsive" src="images/service_3.jpg" alt="">
-                                </div>
-                                <div class="serv_box_cont">
-                                    <p>Строительный сервис</p>
-                                    <a href="services.html"><h3>Сервис уборки  <br>офиса</h3></a>
-                                    <span class="serv-learn">Читать</span><i class="arrow_right"></i>
-                                </div>
-                            </div>
-                        </div>
+                        <h5 class="serv-left">Строительная Очистка</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business</div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
                     </div>
+                    <!-- End: .about-item -->
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon3.png" alt="image">
+                        </div>
+                        <h5 class="serv-left">Коммерческая Очистка</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business </div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
+                    </div>
+                    <!-- End: .about-item -->
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon4.png" alt="image">
+                        </div>
+                        <h5 class="serv-left">Уборка Жилой Зоны</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business</div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
+                    </div>
+                    <!-- End: .about-item -->
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon2.png" alt="image">
+                        </div>
+                        <h5 class="serv-left">Жилая Уборка</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business </div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
+                    </div>
+                    <!-- End: .about-item -->
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon5.png" alt="image">
+                        </div>
+                        <h5 class="serv-left">Весенняя Уборка</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business</div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
+                    </div>
+
+                    <!-- End: .about-item -->
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <!-- about-item -->
+                    <div class="service-item">
+                        <div class="icon-serv">
+                            <img src="images/promo_icon6.png" alt="image">
+                        </div>
+                        <h5 class="serv-left">Уборка Офиса</h5>
+                        <div class="serv-info">The purpose of writing a business is to actually research and find out more about the business</div>
+                        <span class="serv-learn">Подробней</span><i class="arrow_right"></i>
+                    </div>
+                    <!-- End: .about-item -->
                 </div>
             </div>
             <!-- /. row -->
@@ -347,7 +382,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xs-12">
-                    <i class="icon-glyph-234">  </i> 
+                    <i class="fa fa-anchor"></i>
                     <h3>Надежный и профессиональный <br>клининг для вашего бизнеса</h3> 
                     <a class="more-link" href="services.html"> Заказать</a>
                  </div>
@@ -488,101 +523,106 @@
 
     <!-- Start: Work Section 
 ==================================================-->
-    <section class="work-section work_sec_tw">
+    <section class="work-section">
         <div class="container">
             <!-- Start: Heading -->
             <div class="base-header base_header_tw">
                 <h5> Недавние Проекты </h5>
                 <h3>Наши <span class="ylow_clr">Проекты</span></h3>
             </div>
+            <!-- End:  heading -->
+            <div class="section_btn">
+                <a href="gallery.html" class="more-link">Все работы</a>
+            </div>
             <!-- Start: Work filter -->
             <ul class="projects-titles">
-                <li class="active" data-filter="*"><span>все работы</span>
+                <li class="active" data-filter="*"><span>ВСЕ РАБОТЫ</span>
                 </li>
-                <li data-filter=".web"><span>ковер</span>
+                <li data-filter=".web"><span>КОВЕР</span>
                 </li>
-                <li data-filter=".design"><span>бассейн</span>
+                <li data-filter=".design"><span>ЭТАЖ</span>
                 </li>
-                <li data-filter=".graphics"><span>дом</span>
+                <li data-filter=".graphics"><span>ЖИЛОЙ ДОМ</span>
                 </li>
-                <li data-filter=".photoshop"><span>офис</span>
+                <li data-filter=".photoshop"><span>ОФИС</span>
                 </li>                
+                <li data-filter=".photoshop"><span>БАССЕЙН</span>
+                </li>
             </ul>
             <!-- End: Work filter -->
-         </div>
-            <!-- End:  heading -->
-            <div class="container-fluid">
-
-            <div class="projects-list">
-                <div class="col-lg-3 col-xs-12 web graphics">
-                    <div class="single-project-item project-bg-1">
+            <div class="row projects-list">
+                <div class="col-md-4 col-xs-12 web graphics">
+                    <div class="single-project-item">
                         <div class="project-hover">
                             <div class="project_cnt">
-                                <a class="project-link" href="images/work-7.jpg"><i class="icon-glyph-26"></i></a>
+                                <a class="project-link" href="images/work-1.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">Office cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
                             </div>
-                        </div>
-                        <div class="project_cnt_wrp">
-                            <h6><a href="gallery.html">Чистка ковра</a></h6>
-                            <span><a href="single-gallery.html">Категория : пол</a></span>
                         </div>
                     </div>
                 </div>
                 <!-- End: Work Item 1 -->
-                <div class="col-lg-3 col-xs-12 development photoshop">
+                <div class="col-md-4 col-xs-12 development photoshop">
                     <div class="single-project-item project-bg-2">
                         <div class="project-hover">
                             <div class="project_cnt">
-                                <a class="project-link" href="images/work-8.jpg"><i class="icon-glyph-26"></i></a>
+                                <a class="project-link" href="images/work-2.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">House cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
                             </div>
-                        </div>
-                        <div class="project_cnt_wrp">
-                            <h6><a href="gallery.html">Клининг жилых помещений</a></h6>
-                            <span><a href="single-gallery.html">Категория : ковер</a></span>
                         </div>
                     </div>
                 </div>
                 <!-- End: Work Item 2 -->
-                <div class="col-lg-3 col-xs-12 web design">
+                <div class="col-md-4 col-xs-12 web design">
                     <div class="single-project-item project-bg-3">
                         <div class="project-hover">
                             <div class="project_cnt">
-                                <a class="project-link" href="images/work-9.jpg"><i class="icon-glyph-26"></i></a>
+                                <a class="project-link" href="images/work-3.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">Floor cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
                             </div>
                         </div>
-                        <div class="project_cnt_wrp">
-                            <h6><a href="gallery.html">Чистка пола</a></h6>
-                            <span><a href="single-gallery.html">Категория : бассейн</a></span>
-                        </div>                
                     </div>
                 </div>
                 <!-- End: Work Item 3 -->
-                <div class="col-lg-3 col-xs-12 design web development">
+                <div class="col-md-4 col-xs-12 design web development">
                     <div class="single-project-item project-bg-4">
                         <div class="project-hover">
                             <div class="project_cnt">
-                                <a class="project-link" href="images/work-11.jpg"><i class="icon-glyph-26"></i></a>
+                                <a class="project-link" href="images/work-4.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">Pool cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
                             </div>
                         </div>
-                        <div class="project_cnt_wrp">
-                            <h6><a href="gallery.html">Уборка офиса</a></h6>
-                            <span><a href="single-gallery.html">Категория : офис</a></span>
-                        </div>
                     </div>
-                </div>                
-                <!-- End: Work Item 3 -->
-                <div class="col-lg-3 col-xs-12 design web development">
+                </div>
+                <!-- End: Work Item 4 -->
+                <div class="col-md-4 col-xs-12 web graphics">
                     <div class="single-project-item project-bg-5">
                         <div class="project-hover">
                             <div class="project_cnt">
-                                <a class="project-link" href="images/work-10.jpg"><i class="icon-glyph-26"></i></a>
+                                <a class="project-link" href="images/work-5.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">House cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
                             </div>
                         </div>
-                        <div class="project_cnt_wrp">
-                            <h6><a href="gallery.html">Уборка дома</a></h6>
-                            <span><a href="single-gallery.html">Категория : дом</a></span>
-                        </div> 
                     </div>
                 </div>
+                <!-- End: Work Item 5 -->
+                <div class="col-md-4 col-xs-12 design development web">
+                    <div class="single-project-item project-bg-6">
+                        <div class="project-hover">
+                            <div class="project_cnt">
+                                <a class="project-link" href="images/work-6.jpg"><i class="icon-glyph-26"></i></a>
+                                <h6><a href="gallery.html">Home cleaning</a></h6>
+                                <span><a href="single-gallery.html">category : cleaning</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Work Item 6 -->
             </div>
         </div>
     </section>
@@ -891,7 +931,7 @@
                         <p>2019 © Авторское право <a href="index.html">Технология чистоты.</a> Все права защищены.</p>
                     </div>
                     <div class="col-xs-6">
-                        <a class="scrollup" href="#"><span class="icon-glyph-39"></span></a>
+                        <a class="scrollup" href="#"><span ><i class="fa fa-arrow-up"></i></span></a>
                     </div>
                 </div>
                 <!-- End:Subfooter -->
