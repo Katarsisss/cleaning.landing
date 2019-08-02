@@ -24,7 +24,7 @@
         autoplayTimeout: 5000, // Default is 5000
         smartSpeed: 1000, // Default is 250
         loop: true,
-        navText: ["<i class='icon-glyph-229'></i>", "<i class='icon-glyph-229'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         mouseDrag: false,
         touchDrag: false,
     });
@@ -144,8 +144,8 @@
         pagination: true,
         nav: true,
         dots: false,
-        navText: ['<span class="owl_text"><i class="icon-glyph-205"></i></span>', 
-        '<span class="owl_text"><i class="icon-glyph-204"></i></span>'],
+        navText: ['<span class="owl_text"><i class="fas fa-chevron-left"></i></span>', 
+        '<span class="owl_text"><i class="fas fa-chevron-right"></i></span>'],
         responsive: {
             1200: {
                 items: 2
