@@ -422,7 +422,7 @@ section {
   text-align: center;
 }
 
-.header_socil li .fa {
+.header_socil li .fab {
   color: #038FD6;
   font-size: 14px;
   background: #f1f1f1;
@@ -433,12 +433,12 @@ section {
   margin-right: 2px;
 }
 
-.header_socil li .fa:hover {
+.header_socil li .fab:hover {
   color: #fff;
   background: #038FD6;
 }
 
-.top-bar .fa {
+.top-bar .fab {
   border: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 15px;
   height: 35px;
@@ -1215,6 +1215,10 @@ section {
   position: relative;
 }
 
+.icon-glyph-229:before {
+    font-family: Font Awesome\ 5 Brands !important;
+    content: "\f105" !important;
+}
   /*----------------------------------------------------
    Promo Section
 ------------------------------------------------------*/
@@ -2303,7 +2307,7 @@ section {
   position: relative;
 }
 
-.testimonial-box::after {
+/*.testimonial-box::after {
   content: '\e88b';
   position: absolute;
   top: 0;
@@ -2314,8 +2318,10 @@ section {
   font-family: "custom-icons";
   color: #ddd;
   font-weight: bold;
+}*/
+.fa-check-square:before {
+    color: #038FD6;
 }
-
  
 
   /*================================================
@@ -3088,7 +3094,7 @@ header {
   width: 100%;
   margin-bottom: 15px;
   text-align: left;
-  padding: 0px 25px;
+  /*padding: 0px 25px;*/
   border-radius: 50px;
 }
 
@@ -3107,9 +3113,14 @@ header {
   position: relative;
   z-index: 99;
   color: #515050;
+  display: inline-block;
 }
 
-.single_service_cat ul li::after {
+.fa-angle-right:before{
+  padding-right: 10px;
+}
+
+/*.single_service_cat ul li::after {
   content: '\e8cc';
   font-family: "custom-icons";
   left: 0px;
@@ -3118,7 +3129,7 @@ header {
   position: absolute;
   font-weight: bold;
   font-size: 12px;
-}
+}*/
 
 .service_testi {
   background: #F6F6F6;
@@ -3974,9 +3985,8 @@ header {
 
 .sing_port_list ul li:after {
   position: absolute;
-  content: 'f14a';
-  content: "\f0ac";
-  font-family: "custom-icons";
+  font-family: Font Awesome\ 5 Free;
+  content: "\f14a";
   left: 0;
   top: 0;
   color: #038FD6;
@@ -4135,7 +4145,7 @@ header {
   display: inline-block;
 }
 
-.header_topbar_tw .header_socil li .fa {
+.header_topbar_tw .header_socil li .fab {
   color: #fff;
   font-size: 14px;
   background: #038FD6;
