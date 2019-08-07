@@ -1407,27 +1407,39 @@ section {
 
 .service-item-img-1{
   background-image: url(../images/service_1.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
 }
 
 .service-item-img-2{
   background-image: url(../images/service_2.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
 }
 
 .service-item-img-3{
   background-image: url(../images/service_3.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
  
 }
 
 .service-item-img-4{
   background-image: url(../images/service_4.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
 }
 
 .service-item-img-5{
   background-image: url(../images/service_5.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
 }
 
 .service-item-img-6{
   background-image: url(../images/service_6.jpg);
+  opacity: .7;
+  transition: all 0.4s ease 0s;
 }
 .service-section .service-item:hover {
   -webkit-box-shadow: 0px 21px 65px 20px rgba(0, 0, 0, 0.12);
